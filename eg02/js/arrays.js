@@ -1,6 +1,6 @@
 var names = new Array();
 
-// creating by a cosntructor
+// create by a cosntructor
 names = ['pedro', 'jhon', 'mozart'];
 
 
@@ -8,4 +8,11 @@ names = ['pedro', 'jhon', 'mozart'];
 
 var el = document.getElementById('names');
 elShipping.textContent = names.item(0);
+
+var colors = ['red','yellow','green']; 
+
+
+// update the third item of array             
+colors[2] = 'beige';
+
 
