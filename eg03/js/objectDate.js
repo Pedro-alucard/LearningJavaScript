@@ -1,5 +1,7 @@
 var today = new Date();
 
+// plus 7 days from the current date
+
 var weekFromToday = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
 
 console.log(weekFromToday.getDate());

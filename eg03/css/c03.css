@@ -87,8 +87,8 @@ p + h2 {
 #roomRate{
   text-decoration: line-through;
   display: inline-block;
-  padding-top: 10px;
-}
+  float: none;
+  padding-top: 10px;}
 
 #specialRate {  
   font-size: 440%;
