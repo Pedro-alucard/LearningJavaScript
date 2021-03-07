@@ -39,13 +39,12 @@ var areaVolume = getSize(3,2,3)[1];
 
 var area = function(width, height){
     return width * height;
-}
+};
 
 area(2,3);
 
 // IIFES
 
-// The final parentheses (shown on green) after
 // the closing curly brace of the code block tell the
 // interpreter to call the function immediately.
 

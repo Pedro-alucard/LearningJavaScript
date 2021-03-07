@@ -1,20 +1,20 @@
 
-// var hotel = {
+ var hotel = {
 
-//     name = 'quayy',
-//     rooms = 40,
-//     booked = 25,
-//     gym = true,
-//     roomTypes = ['twin', 'double', 'suite'],
+    name = 'quayy',
+     rooms = 40,
+     booked = 25,
+    gym = true,
+    roomTypes = ['twin', 'double', 'suite'],
 
-//     checkAvaliability : function(){
-//         return this.rooms = this.booked;
-//     }
+    checkAvaliability : function(){
+        return this.rooms = this.booked;
+     }
 
-// }
+ }
 
-// var hotelName = hotel.name;
-// // var hotelName = hotel['name'];
+ var hotelName = hotel.name;
+ var hotelName = hotel['name'];
 // var roomsFree = hotel.checkAvaliability();
 
 // Creating a Object with constructor notation
@@ -58,3 +58,4 @@ var house1 = new House(5, 4, true);
 var house2 = new House(1, 1, false);
 
 house1.color = 'blue';
+
