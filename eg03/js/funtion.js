@@ -8,6 +8,7 @@ function updateMessage()
     elMessage.textContent = message;
 
 }
+
 updateMessage();
 
 

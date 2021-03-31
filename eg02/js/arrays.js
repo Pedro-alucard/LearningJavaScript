@@ -1,18 +1,24 @@
-var names = new Array();
+var frutas = new Array('macao','banana');
+
+frutas.push('laranja')
+frutas.pop()
+frutas.push('uva')
 
 // create by a cosntructor
-names = ['pedro', 'jhon', 'mozart'];
+frutas.forEach(function (item, indice) {
+    console.log(item, indice);
+  });
 
-
+  console.log(frutas.indexOf('uva'));
 // var colors = ['red', 'yellow', 'green'];
 
-var el = document.getElementById('names');
-elShipping.textContent = names.item(0);
+// var el = document.getElementById('names');
+// elShipping.textContent = names.item(0);
 
-var colors = ['red','yellow','green']; 
+// var colors = ['red','yellow','green']; 
 
 
-// update the third item of array             
-colors[2] = 'beige';
+// // update the third item of array             
+// colors[2] = 'beige';
 
 

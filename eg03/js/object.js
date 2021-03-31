@@ -2,15 +2,14 @@
  var hotel = {
 
     name = 'quayy',
-     rooms = 40,
-     booked = 25,
+    rooms = 40,
+    booked = 25,
     gym = true,
     roomTypes = ['twin', 'double', 'suite'],
 
     checkAvaliability : function(){
-        return this.rooms = this.booked;
+        return this.rooms - this.booked;
      }
-
  }
 
  var hotelName = hotel.name;

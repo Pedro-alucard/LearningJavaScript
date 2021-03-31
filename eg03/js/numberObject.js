@@ -13,7 +13,7 @@ console.log(number);
 // Rounds number to the nearest integer
 Math.round(number); 
 
-var randonNumber = Math.floor(Math.random() * 10);
+var randonNumber =Math.floor(Math.random() * 10);
 console.log(randonNumber);
 
 

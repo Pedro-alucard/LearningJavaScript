@@ -1,7 +1,7 @@
 
 // expression assings
 
-var color ='beige';
+var color = 'beige';
 
 
 // expressions that return a unique value

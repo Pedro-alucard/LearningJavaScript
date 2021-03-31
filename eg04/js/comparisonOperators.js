@@ -31,6 +31,12 @@ console.log(3>=3);
 //false
 console.log(3>=4);
 
+var oi;
+
+if (oi == undefined){
+    console.log("tamo junto")
+}
+
 
 
 
