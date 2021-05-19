@@ -1,9 +1,9 @@
 //HTML5 EVENTS
 
-// DOMContentLoaded() Event fires when the DOM tree is formed (images, CSS, and
+// DOMContentLoaded() Event fires when the DOM tree is formed (img, CSS, and
 // JavaScript might still be loading). Scripts start to run earlier than
 // using the load event which waits for other resources such as
-// images and advertisements to load.
+// img and advertisements to load.
 
 // hashchange() Event fires when the URL hash changes (without the entire
 // window refreshing)
